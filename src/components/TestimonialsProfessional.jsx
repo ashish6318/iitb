@@ -75,7 +75,7 @@ const TestimonialsProfessional = () => {
           muted
           playsInline
           className={`w-full h-full object-contain transition-opacity duration-1000 ${
-            isDark ? "opacity-25" : "opacity-30"
+            isDark ? "opacity-45" : "opacity-55"
           }`}
           style={{ objectPosition: "center center" }}
         >

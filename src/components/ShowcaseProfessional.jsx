@@ -48,7 +48,7 @@ const ShowcaseProfessional = () => {
           loop
           muted
           playsInline
-          className="w-full h-full object-contain opacity-20"
+          className="w-full h-full object-contain opacity-40"
           style={{ objectPosition: "center center" }}
         >
           <source src="/assets/showcase work.mp4" type="video/mp4" />

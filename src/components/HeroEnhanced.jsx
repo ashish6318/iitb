@@ -235,18 +235,18 @@ const HeroEnhanced = () => {
           playsInline
           onLoadedData={() => setIsVideoLoaded(true)}
           className={`w-full h-full object-contain transition-opacity duration-1000 ${
-            isDark ? "opacity-30" : "opacity-50"
+            isDark ? "opacity-60" : "opacity-70"
           }`}
           style={{ objectPosition: "center center" }}
         >
           <source src="/assets/homepage.mp4" type="video/mp4" />
         </video>
-        {/* Strong background gradient for better readability */}
+        {/* Strong background gradient for better readability */}{" "}
         <div
           className={`absolute inset-0 ${
             isDark
-              ? "bg-gradient-to-br from-slate-950/98 via-slate-900/95 to-blue-950/98"
-              : "bg-gradient-to-br from-white/98 via-slate-50/95 to-blue-50/98"
+              ? "bg-gradient-to-br from-slate-950/85 via-slate-900/80 to-blue-950/85"
+              : "bg-gradient-to-br from-white/85 via-slate-50/80 to-blue-50/85"
           }`}
         />
         {/* Dynamic animated overlay */}

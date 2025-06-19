@@ -63,7 +63,7 @@ const FeaturesProfessional = () => {
           loop
           muted
           playsInline
-          className="w-full h-full object-contain opacity-20"
+          className="w-full h-full object-contain opacity-40"
           style={{ objectPosition: "center center" }}
         >
           <source src="/assets/features-services.mp4" type="video/mp4" />

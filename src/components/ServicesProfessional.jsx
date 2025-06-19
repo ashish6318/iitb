@@ -113,17 +113,17 @@ const ServicesProfessional = () => {
           muted
           playsInline
           className={`w-full h-full object-contain transition-opacity duration-1000 ${
-            isDark ? "opacity-25" : "opacity-30"
+            isDark ? "opacity-50" : "opacity-60"
           }`}
           style={{ objectPosition: "center center" }}
         >
           <source src="/assets/features-services.mp4" type="video/mp4" />
-        </video>
+        </video>{" "}
         <div
           className={`absolute inset-0 ${
             isDark
-              ? "bg-gradient-to-br from-slate-950/98 via-slate-900/95 to-blue-950/98"
-              : "bg-gradient-to-br from-white/98 via-slate-50/95 to-blue-50/98"
+              ? "bg-gradient-to-br from-slate-950/80 via-slate-900/75 to-blue-950/80"
+              : "bg-gradient-to-br from-white/80 via-slate-50/75 to-blue-50/80"
           }`}
         />
         {/* Enhanced grid pattern */}
